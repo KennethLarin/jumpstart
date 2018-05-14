@@ -20,6 +20,18 @@ body {
 }
 
 /* jumbotron section */
+.jumbotron {
+  padding: 11.85rem 0;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+}
+
 .jumbotron.jumbotron-bike {
-  background-image: url("../resources/images/jumbotron-bike.jpg");
+  background-image: url("../images/jumbotron-bike.jpg");
 }
