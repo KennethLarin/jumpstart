@@ -75,6 +75,10 @@ h3 {
   font-weight: bold;
 }
 
+h5 {
+  margin: 0.8rem 0;
+}
+
 .list-category {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
