@@ -112,7 +112,7 @@ h5 {
 /* footer section */
 .footer {
   margin-top: 5.85rem;
-  padding: 5.2rem;
+  padding: 5.2rem 0;
   background-color: #f3f3f3;
 }
 
@@ -121,6 +121,6 @@ strong {
 }
 
 .footer p {
-  width: 42rem;
-  margin: 1.4rem auto 0 auto;
+  max-width: 42rem;
+  margin-top: 1.4rem;
 }
