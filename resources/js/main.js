@@ -1,17 +1,18 @@
 $(document).ready(function(){
   $('.carousel').slick({
-    accesibility: false,
+    slidesToScroll: 1,
     autoplay: true,
-    Speed: 4000,
+    autoplaySpeed: 4000,
+    arrows: false,
     draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false
   });
 
-  var lastScrollTop = 0;
+    var lastScrollTop = 0;
   $(window).scroll(function(){
     var scrollTop = $(this).scrollTop();
-    if (scrollTop - lastScrollTop > 50) {
+    if (scrollTop - lastScrollTop > 50){
       var navHeight = $('.navbar').css('height');
       $('.navbar').animate({top: '-' + navHeight}, 150);
       lastScrollTop = scrollTop;
@@ -19,6 +20,5 @@ $(document).ready(function(){
       $('.navbar').animate({top: '0px'}, 150);
       lastScrollTop = scrollTop;
     }
-  }
-  );
+  });
 });
